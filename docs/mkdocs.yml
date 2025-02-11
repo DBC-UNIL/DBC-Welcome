@@ -1,0 +1,39 @@
+site_name: DBC-Welcome
+docs_dir: pages
+site_dir: site
+
+repo_name: 'dbc-unil/DBC-Welcome'
+repo_url: 'https://dbc-unil.github.io/DBC-Welcome/'
+edit_uri: 'tree/master/docs/pages/'
+
+# Google Analytics
+#google_analytics:
+#  - UA-139052696-1
+#  - auto
+
+# Copyright
+#
+
+nav:
+  - Home: index.md
+
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: images/dbc_logo.svg
+  palette:
+    primary: green
+    accent: indigo
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - codehilite
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DBC-UNIL/DBC-Welcome
