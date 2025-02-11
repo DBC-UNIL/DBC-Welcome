@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Welcome to the Bioinformatics site from the DBC
 
 The tools are in [this page](./pages/test_tools.md)
