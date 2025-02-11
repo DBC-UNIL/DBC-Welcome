@@ -3,4 +3,8 @@
 - Let's try
 - This
 
-The tools are in [this page](/tools.md)
+## Welcome to another page
+
+_yay_
+
+[back](./)
