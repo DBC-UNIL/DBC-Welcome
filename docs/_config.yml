@@ -1,6 +1,8 @@
 site_name: DBC-Welcome
-docs_dir: pages
-site_dir: site
+source: ./pages
+layouts_dir         : _layouts
+data_dir            : _data
+includes_dir        : _includes
 
 repo_name: 'dbc-unil/DBC-Welcome'
 repo_url: 'https://dbc-unil.github.io/DBC-Welcome/'
@@ -8,8 +10,6 @@ edit_uri: 'tree/master/docs/pages/'
 
 # Google Analytics
 #google_analytics:
-#  - UA-139052696-1
-#  - auto
 
 # Copyright
 #
@@ -17,15 +17,17 @@ edit_uri: 'tree/master/docs/pages/'
 nav:
   - Home: index.md
 
-theme:
-  name: material
-  font:
-    text: Roboto
-    code: Roboto Mono
-  logo: images/dbc_logo.svg
-  palette:
-    primary: green
-    accent: indigo
+theme: jekyll-theme-leap-day
+
+#theme:
+#  name: jekyll-theme-leap-day
+#  font:
+#    text: Roboto
+#    code: Roboto Mono
+#  logo: images/dbc_logo.svg
+#  palette:
+#    primary: green
+#    accent: indigo
 
 markdown_extensions:
   - admonition
