@@ -1,8 +1,9 @@
 site_name: DBC-Welcome
-source: ./pages
-layouts_dir         : _layouts
-data_dir            : _data
-includes_dir        : _includes
+source: pages
+baseurl: pages
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: _includes
 
 repo_name: 'dbc-unil/DBC-Welcome'
 repo_url: 'https://dbc-unil.github.io/DBC-Welcome/'
