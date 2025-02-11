@@ -17,7 +17,7 @@ edit_uri: 'tree/master/docs/pages/'
 nav:
   - Home: index.md
 
-theme: jekyll-theme-material
+theme: jekyll-theme-leap-day
 
 #theme:
 #  name: jekyll-theme-leap-day
