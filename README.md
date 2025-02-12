@@ -1,1 +1,0 @@
-The tools are in [this page](/tools.md)
