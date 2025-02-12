@@ -1,0 +1,17 @@
+\section{HPC Tricks and Tips}
+It is not to replace the DSCR information, it is about our tricks and tips that we want to share. 
+\subsection{DSCR Links}
+
+\subsection{Screen}
+Keep sessions running after disconnection:
+\begin{lstlisting}
+screen -S mysession
+# To detach: Ctrl+A, then D
+screen -r mysession  # Reattach session
+\end{lstlisting}
+
+\subsection{Mounting remote folder}
+Mount remote directories using \texttt{sshfs}:
+\begin{lstlisting}
+sshfs user@remote:/path/to/dir /mnt/localmount
+\end{lstlisting}

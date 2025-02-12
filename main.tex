@@ -1,16 +1,37 @@
-\documentclass{article}
-\usepackage{graphicx} % Required for inserting images
-\usepackage{markdown}
-\usepackage{hyperref}
-
-\title{DBC Welcome}
-\author{thibault.latrille }
-\date{February 2025}
+\documentclass[11pt]{article}
+\input{preamble.tex}
+% If you need new packages, update the file preamble.tex
+% List of command for font awesome logo: https://www.ipgp.fr/~moguilny/LaTeX/fontawesome5Icons.pdf
+% 
 
 \begin{document}
+% Title and logo
 \maketitle
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{images/logo.jpeg}
+\end{figure}
 
-\section{Introduction}
-\markdownInput{tools.md}
+% Summary of the goal of the document
+You hold in your hands the Swiss Knife for DBC members. The goal is to have a synthetic document that contains all the information that is difficult to gather when you arrive in a new unit. This document is intended to be improved; so if you see points that could be integrated, do not hesitate to.\\
+
+% Table of contents 
+\tableofcontents
+\newpage
+
+% Make changes straight away in those files, create one if needed.
+\input{1_software.tex}
+\newpage
+\input{2_internet}
+\newpage
+\input{3_programming}
+\newpage
+\input{4_packaging}
+\newpage
+\input{5_HPC}
+\newpage
+\input{6_AI}
+\newpage
+\input{7_courses}
 
 \end{document}
