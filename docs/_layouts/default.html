@@ -16,7 +16,7 @@
   <body>
 
       <header>
-        <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <h1>{{ page.title | default: site.title | default: site.github.repository_name }}<span style="background-image: {{ logo }}"></span></h1>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
 
@@ -42,8 +42,8 @@
         <ul></ul>
       </nav>
       <section>
-        {{ content }}
-
+<!--        {{ content }}-->
+        <embed src="/DBC_Welcome.pdf" width="500" height="375" type="application/pdf">
       </section>
       <footer>
         {% if site.github.is_project_page %}
