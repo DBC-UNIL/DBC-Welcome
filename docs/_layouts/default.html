@@ -25,8 +25,6 @@
 
     <!-- banner -->
     <div id="banner">
-        <span id="logo" style="background-image: url({{ site.logo }});"></span>
-
         <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
         {% if site.show_downloads %}
         <div class="downloads">
@@ -45,20 +43,21 @@
         <nav>
             <ul></ul>
         </nav>
-        <section style="width: 75%">
+        <section style="width: 100%">
             <!--        {{ content }}-->
             <div class="page-content" style="width:100%; height:100%">
                 <iframe class="pdf" src="{{ site.index_pdf }}" width="100%" height="100%"></iframe>
             </div>
         </section>
-        <footer>
-            {% if site.github.is_project_page %}
-                <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-            {% endif %}
-            <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
-        </footer>
 
     </div>
+
+    <footer>
+        {% if site.github.is_project_page %}
+            <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
+    </footer>
 
 </body>
 </html>
