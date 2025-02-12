@@ -23,4 +23,5 @@ author: Carlos Pulido
 # --- Logo --- #
 ################
 
-logo: "/assets/img/dbc_logo.png"
+logo: "assets/img/dbc_logo.png"
+index_pdf: "DBC-Welcome.pdf"
